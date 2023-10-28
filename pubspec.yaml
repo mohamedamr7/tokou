@@ -69,6 +69,10 @@ flutter:
     - assets/sounds/family_members/older bother.wav
     - assets/images/family_members/
     - assets/images/colors/
+    - assets/images/learning.jpeg
+    - assets/images/familyMember.png
+    - assets/images/OIP.jpeg
+    - assets/images/Pharse.jpeg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

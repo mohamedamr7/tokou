@@ -18,7 +18,7 @@ class ColorItem extends StatelessWidget{
       //       ]
       //   ),
       // ),
-      color: Colors.lightBlue,
+      color: const Color(0xff7C3FA1),
       child: Row(
         children: [
           Container(

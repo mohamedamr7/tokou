@@ -2,9 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tokou/models/itemColor.dart';
-
 import '../components/Colordata.dart';
-
 class ColorPage extends StatelessWidget{
   List<ColorData> ListOfColor=[
     ColorData(
@@ -77,32 +75,41 @@ class ColorPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
    return Scaffold(
-     appBar: AppBar(
-         backgroundColor: Colors.transparent,
-       elevation: 0,
-       flexibleSpace: Container(
-         decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                // Colors.black,
-                // Colors.brown,
-                // Colors.yellow,
-                // Colors.grey,
-                // Colors.green,
-                // Colors.red,
-                // Colors.white,
-                // Colors.yellow,
-                 Color(0xffF9F7F7),
-                 Color(0xffDBE2EF),
-                 Color(0xff3F72AF),
-                 Color(0xff112D4E),
-
-              ],
-            )
+     appBar:  AppBar(
+       backgroundColor: Color(0xff452F24),
+       title: Text("Colors",
+         style: TextStyle(
+           color: Colors.white,
+           fontSize: 20,
          ),
        ),
-       toolbarHeight: 60,
      ),
+     // appBar: AppBar(
+     //     backgroundColor: Colors.transparent,
+     //   elevation: 0,
+     //   flexibleSpace: Container(
+     //     decoration: BoxDecoration(
+     //        gradient: LinearGradient(
+     //          colors: [
+     //            // Colors.black,
+     //            // Colors.brown,
+     //            // Colors.yellow,
+     //            // Colors.grey,
+     //            // Colors.green,
+     //            // Colors.red,
+     //            // Colors.white,
+     //            // Colors.yellow,
+     //             Color(0xffF9F7F7),
+     //             Color(0xffDBE2EF),
+     //             Color(0xff3F72AF),
+     //             Color(0xff112D4E),
+     //
+     //          ],
+     //        )
+     //     ),
+     //   ),
+     //   toolbarHeight: 60,
+     // ),
      body: Column(
        children: [
           Expanded(
